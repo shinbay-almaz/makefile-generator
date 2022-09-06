@@ -78,6 +78,6 @@ int main(int argc, char** argv) {
 	} else if (argc == 2) {
 		generateMakefile(fs::path(argv[1]));
 	} else {
-		cout << "Usage: generate [path]\n";
+		cout << "Usage: main [path]\n";
 	}
 }
